@@ -19,7 +19,7 @@ pnpm install
 
 ### 環境變數說明
 
-請參考 [.env.example](https://github.com/tingminitime/upstash-meta-messenger/blob/main/.env.example) 檔案。
+請參考 [.env.example](https://github.com/tingminitime/nextjs-news-app/blob/main/.env.example) 檔案。
 
 ```env
 MEDIASTACK_API_KEY= # your mediastack api key
