@@ -6,6 +6,8 @@ type Props = {
   searchParams?: Article
 }
 
+export const dynamic = 'force-dynamic'
+
 function ArticlePage({ searchParams }: Props) {
   if (
     (searchParams && Object.entries(searchParams).length === 0) ||
@@ -14,6 +16,7 @@ function ArticlePage({ searchParams }: Props) {
     return notFound()
   }
 
+  console.log('[ArticlePage]searchParams:', searchParams)
   const article: Article = searchParams
 
   return (
